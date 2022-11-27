@@ -23,7 +23,6 @@
 
 struct rtmx_wrapper_interface
 {
-  virtual ~rtmx_wrapper_interface() = 0;
   virtual void lock() = 0;
   virtual void unlock() = 0;
 };
